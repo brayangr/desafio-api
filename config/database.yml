@@ -14,4 +14,5 @@ test:
 production:
   <<: *default
   database: desafio_api_produccion
-  password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
+  username: desafio_api
+  password: <%= ENV['DESAFIO_API_DATABASE_PASSWORD'] %>
