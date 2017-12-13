@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   
-  resources :cities 
+  resources :cities, path: '/api/cities'
   
 end
