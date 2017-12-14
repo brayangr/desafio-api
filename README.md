@@ -15,5 +15,5 @@ Api solicitada como primera parte del desafio entregado por acid labs.
 
 ### Heroku
 * Instalar heroku, e iniciar sesion.
-* ejecutar deploy_heroku.sh
+* Dar permisos de ejecucion a deploy_heroku.sh y luego ejecutarlo
 * A la url que abra en el navegador agregar "/api/cities" para ver el contenido de la api
